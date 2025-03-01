@@ -1,0 +1,12 @@
+---
+layout: post
+title: Test Post
+tags: tag1 tag2
+category: firstcategory
+---
+
+Excerpt with multiple paragraphs
+
+Here's another paragraph in the excerpt.
+<!--more-->
+Out-of-excerpt
