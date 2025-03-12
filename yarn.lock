@@ -2643,10 +2643,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/env@npm:15.1.4":
-  version: 15.1.4
-  resolution: "@next/env@npm:15.1.4"
-  checksum: bb26fa2184a81d0d5265962d4f162f32d5a5a19281af475ab32e13bd700b4cf32164ca4add9fd1f849f4c970bad7a7cca25ed3414e94396472a94e2d567c4600
+"@next/env@npm:15.2.2":
+  version: 15.2.2
+  resolution: "@next/env@npm:15.2.2"
+  checksum: da032cecdb04583ae6aa0679a912d5e6b36220bc33cf0933b8b350b91decc1001e1aa7baf26d9ac1e89033eefdc5936c634f485b05517facec1737d02f6099e2
   languageName: node
   linkType: hard
 
@@ -2659,58 +2659,58 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/swc-darwin-arm64@npm:15.1.4":
-  version: 15.1.4
-  resolution: "@next/swc-darwin-arm64@npm:15.1.4"
+"@next/swc-darwin-arm64@npm:15.2.2":
+  version: 15.2.2
+  resolution: "@next/swc-darwin-arm64@npm:15.2.2"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@next/swc-darwin-x64@npm:15.1.4":
-  version: 15.1.4
-  resolution: "@next/swc-darwin-x64@npm:15.1.4"
+"@next/swc-darwin-x64@npm:15.2.2":
+  version: 15.2.2
+  resolution: "@next/swc-darwin-x64@npm:15.2.2"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@next/swc-linux-arm64-gnu@npm:15.1.4":
-  version: 15.1.4
-  resolution: "@next/swc-linux-arm64-gnu@npm:15.1.4"
+"@next/swc-linux-arm64-gnu@npm:15.2.2":
+  version: 15.2.2
+  resolution: "@next/swc-linux-arm64-gnu@npm:15.2.2"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@next/swc-linux-arm64-musl@npm:15.1.4":
-  version: 15.1.4
-  resolution: "@next/swc-linux-arm64-musl@npm:15.1.4"
+"@next/swc-linux-arm64-musl@npm:15.2.2":
+  version: 15.2.2
+  resolution: "@next/swc-linux-arm64-musl@npm:15.2.2"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@next/swc-linux-x64-gnu@npm:15.1.4":
-  version: 15.1.4
-  resolution: "@next/swc-linux-x64-gnu@npm:15.1.4"
+"@next/swc-linux-x64-gnu@npm:15.2.2":
+  version: 15.2.2
+  resolution: "@next/swc-linux-x64-gnu@npm:15.2.2"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@next/swc-linux-x64-musl@npm:15.1.4":
-  version: 15.1.4
-  resolution: "@next/swc-linux-x64-musl@npm:15.1.4"
+"@next/swc-linux-x64-musl@npm:15.2.2":
+  version: 15.2.2
+  resolution: "@next/swc-linux-x64-musl@npm:15.2.2"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@next/swc-win32-arm64-msvc@npm:15.1.4":
-  version: 15.1.4
-  resolution: "@next/swc-win32-arm64-msvc@npm:15.1.4"
+"@next/swc-win32-arm64-msvc@npm:15.2.2":
+  version: 15.2.2
+  resolution: "@next/swc-win32-arm64-msvc@npm:15.2.2"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@next/swc-win32-x64-msvc@npm:15.1.4":
-  version: 15.1.4
-  resolution: "@next/swc-win32-x64-msvc@npm:15.1.4"
+"@next/swc-win32-x64-msvc@npm:15.2.2":
+  version: 15.2.2
+  resolution: "@next/swc-win32-x64-msvc@npm:15.2.2"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -9086,6 +9086,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"next-elfsight-widget@npm:^1.1.1":
+  version: 1.1.1
+  resolution: "next-elfsight-widget@npm:1.1.1"
+  dependencies:
+    react-elfsight-widget: ^1.1.1
+  peerDependencies:
+    next: ">=12.0.0"
+  checksum: 4e735d173c44782550ca4b1a90013b6d2b7a9948f5a9c4a20f80e96fc25acaf555d3dc2619a00fad49328bd6ece2362e18bcb451eafd420eaa668f6e5ef72cb1
+  languageName: node
+  linkType: hard
+
 "next-themes@npm:^0.3.0":
   version: 0.3.0
   resolution: "next-themes@npm:0.3.0"
@@ -9096,19 +9107,29 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next@npm:15.1.4":
-  version: 15.1.4
-  resolution: "next@npm:15.1.4"
+"next-themes@npm:^0.4.4":
+  version: 0.4.5
+  resolution: "next-themes@npm:0.4.5"
+  peerDependencies:
+    react: ^16.8 || ^17 || ^18 || ^19 || ^19.0.0-rc
+    react-dom: ^16.8 || ^17 || ^18 || ^19 || ^19.0.0-rc
+  checksum: 046ab4fa7f793f8692dd5b2a3f4870f49445496eab52ce26e3ef153e665a098bf15bedb04018012ad9f9e1ccbcb1e6ae7a4cb3e5f8735cf120bdd3ab79a8aa71
+  languageName: node
+  linkType: hard
+
+"next@npm:^15.2.2":
+  version: 15.2.2
+  resolution: "next@npm:15.2.2"
   dependencies:
-    "@next/env": 15.1.4
-    "@next/swc-darwin-arm64": 15.1.4
-    "@next/swc-darwin-x64": 15.1.4
-    "@next/swc-linux-arm64-gnu": 15.1.4
-    "@next/swc-linux-arm64-musl": 15.1.4
-    "@next/swc-linux-x64-gnu": 15.1.4
-    "@next/swc-linux-x64-musl": 15.1.4
-    "@next/swc-win32-arm64-msvc": 15.1.4
-    "@next/swc-win32-x64-msvc": 15.1.4
+    "@next/env": 15.2.2
+    "@next/swc-darwin-arm64": 15.2.2
+    "@next/swc-darwin-x64": 15.2.2
+    "@next/swc-linux-arm64-gnu": 15.2.2
+    "@next/swc-linux-arm64-musl": 15.2.2
+    "@next/swc-linux-x64-gnu": 15.2.2
+    "@next/swc-linux-x64-musl": 15.2.2
+    "@next/swc-win32-arm64-msvc": 15.2.2
+    "@next/swc-win32-x64-msvc": 15.2.2
     "@swc/counter": 0.1.3
     "@swc/helpers": 0.5.15
     busboy: 1.6.0
@@ -9153,7 +9174,7 @@ __metadata:
       optional: true
   bin:
     next: dist/bin/next
-  checksum: e9de936fe41bdddd50be283b6ce1f35ef434f0777026400a9119d91d0f99d0f7d7101599700de7502b0340c247691f98abea551c1738f158c89d4981d11fe1cf
+  checksum: f7db89f62511d24682e255250530d018c808d7911a868fc0a8cd4ed87b6cea7f609c7d9e5869616b64351eef3da4c3ef45349e70e910d6dec3ff4d4faf604c04
   languageName: node
   linkType: hard
 
@@ -9863,7 +9884,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-elfsight-widget@npm:^1.1.2":
+"react-elfsight-widget@npm:^1.1.1, react-elfsight-widget@npm:^1.1.2":
   version: 1.1.2
   resolution: "react-elfsight-widget@npm:1.1.2"
   peerDependencies:
@@ -9890,7 +9911,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:19.0.0":
+"react@npm:^19.0.0":
   version: 19.0.0
   resolution: "react@npm:19.0.0"
   checksum: 86de15d85b2465feb40297a90319c325cb07cf27191a361d47bcfe8c6126c973d660125aa67b8f4cbbe39f15a2f32efd0c814e98196d8e5b68c567ba40a399c6
@@ -10005,14 +10026,14 @@ __metadata:
   linkType: hard
 
 "refractor@npm:^4.8.0":
-  version: 4.8.1
-  resolution: "refractor@npm:4.8.1"
+  version: 4.9.0
+  resolution: "refractor@npm:4.9.0"
   dependencies:
     "@types/hast": ^2.0.0
     "@types/prismjs": ^1.0.0
     hastscript: ^7.0.0
     parse-entities: ^4.0.0
-  checksum: 51762ed1d62523e3fb4b1ccec3f846965d497b7828e43d1668b2839dcbbe6b0d4edfd9113ad6e3679e5a6b6fb2f6983883123d762a7e46e3b5a8cd480a0a1930
+  checksum: b1959733686ac2b9f2f23251b8de06297b06679552a625e8c8a8d6d2560814450061d7f2ebadad1e3d9ad3211ce56521f71107a81744d4f83de15f67f11039f6
   languageName: node
   linkType: hard
 
@@ -11529,14 +11550,15 @@ __metadata:
     husky: ^9.0.0
     image-size: 1.0.0
     lint-staged: ^13.0.0
-    next: 15.1.4
+    next: ^15.2.2
     next-contentlayer2: 0.5.4
-    next-themes: ^0.3.0
+    next-elfsight-widget: ^1.1.1
+    next-themes: ^0.4.4
     pliny: 0.4.1
     postcss: ^8.4.24
     prettier: ^3.0.0
     prettier-plugin-tailwindcss: ^0.6.11
-    react: 19.0.0
+    react: ^19.0.0
     react-dom: 19.0.0
     react-elfsight-widget: ^1.1.2
     reading-time: 1.5.0

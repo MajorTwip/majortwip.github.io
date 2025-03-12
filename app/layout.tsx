@@ -12,6 +12,7 @@ import Footer from '@/components/Footer'
 import siteMetadata from '@/data/siteMetadata'
 import { ThemeProviders } from './theme-providers'
 import { Metadata } from 'next'
+import { ElfsightWidget } from '@/components/ElfsightWidget'
 
 const space_grotesk = Space_Grotesk({
   subsets: ['latin'],
@@ -105,6 +106,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </SearchProvider>
             <Elfsight />
             <Footer />
+            <ElfsightWidget widgetId={'b1ee90e1-79dd-45f9-abfe-49772c936355'} />
           </SectionContainer>
         </ThemeProviders>
       </body>
