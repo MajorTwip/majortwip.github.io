@@ -103,7 +103,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Header />
               <main className="mb-auto">{children}</main>
             </SearchProvider>
-            <Elfsight />
             <Footer />
             <ElfsightWidget widgetId={'b1ee90e1-79dd-45f9-abfe-49772c936355'} />
           </SectionContainer>
