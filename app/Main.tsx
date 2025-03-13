@@ -32,15 +32,15 @@ export default function Home({ posts }) {
                       <dd className="text-base leading-6 font-medium text-gray-500 dark:text-gray-400">
                         <time dateTime={date}>{formatDate(date, siteMetadata.locale)}</time>
                         <div className="py-2 pr-3">
-                        <Image
+                          <Image
                             alt={title}
                             src={images[0]}
                             className="object-cover object-center"
                             width={215}
                             height={150}
                           />
-                          </div>
-                        </dd>
+                      </div>
+                    </dd>
                     </dl>
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
