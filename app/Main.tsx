@@ -5,8 +5,6 @@ import { formatDate } from 'pliny/utils/formatDate'
 import NewsletterForm from 'pliny/ui/NewsletterForm'
 import Image from '@/components/Image'
 
-
-
 const MAX_DISPLAY = 5
 
 export default function Home({ posts }) {
@@ -35,14 +33,14 @@ export default function Home({ posts }) {
                         <time dateTime={date}>{formatDate(date, siteMetadata.locale)}</time>
                         <div className="py-2 pr-3">
                         <Image
-                          alt={title}
-                          src={images[0]}
-                          className="object-cover object-center"
-                          width={215}
-                          height={150}
-                        />
-                        </div>
-                      </dd>
+                            alt={title}
+                            src={images[0]}
+                            className="object-cover object-center"
+                            width={215}
+                            height={150}
+                          />
+                          </div>
+                        </dd>
                     </dl>
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
