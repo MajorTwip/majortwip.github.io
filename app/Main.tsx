@@ -39,8 +39,8 @@ export default function Home({ posts }) {
                             width={215}
                             height={150}
                           />
-                      </div>
-                    </dd>
+                        </div>
+                      </dd>
                     </dl>
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
